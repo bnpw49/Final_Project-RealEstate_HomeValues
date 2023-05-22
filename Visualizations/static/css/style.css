@@ -1,0 +1,20 @@
+.marker {
+    width: 25px;
+    height: 41px;
+}
+
+.marker-green {
+    background-image: url("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png");
+}
+
+.marker-red {
+    background-image: url("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png");
+}
+
+.marker-orange {
+    background-image: url("https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png");
+}
+
+.marker-shadow {
+    background-image: url("https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png");
+}
