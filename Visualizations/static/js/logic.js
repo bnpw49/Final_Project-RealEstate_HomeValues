@@ -9,16 +9,16 @@ d3.csv("/templates/map_data.csv").then(function(data) {
     streetMap.addTo(mymap);
 
     // Create dropdown
-    var dropdownContainer = d3.select("body")
-        .append("div");
+    var dropdownContainer = d3.select("#dropdownContainer");
 
-    dropdownContainer.append("span")
+    dropdownContainer.append("div")
         .text("Select a Year: ");
 
     var dropdown = dropdownContainer.append("select")
-        .attr("id", "dropdown-menu")
-        .on("change", function() {
-            var selectedColumn = d3.select(this).property("value");
+        .attr("id", "dropdown-menu");
+    
+    dropdown.on("change", function() {
+            var selectedColumn = this.value;
             updateMarkers(selectedColumn);
     });
 
