@@ -1,6 +1,7 @@
 # Final Project 
 ## Housing Cost Prediction Model 
 Amr Ismail, Angel Chen, Bree PiperWilliams, Jennifer Duckworth, Lorela Cabral
+Presentation: https://prezi.com/view/Yoe0tMeBLysebxIMqeLO/
 ![alt text](https://www.dice.com/binaries/large/content/gallery/dice/insights/2018/08/Cost-of-Living-Tech-Pros-Dice.png)
 
 ## Problem
